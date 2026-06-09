@@ -5,6 +5,21 @@
 @layer base {
 }
 
+@layer components {
+  .btn-3d {
+    @apply transition-all duration-150 relative -top-[2px] -left-[2px];
+    box-shadow: 4px 4px 0px theme('colors.brand.dark');
+  }
+  .btn-3d:hover {
+    @apply -top-[4px] -left-[4px];
+    box-shadow: 6px 6px 0px theme('colors.brand.dark');
+  }
+  .btn-3d:active {
+    @apply top-[0px] left-[0px];
+    box-shadow: 0px 0px 0px transparent;
+  }
+}
+
 @layer utilities {
   .hide-scrollbar::-webkit-scrollbar {
     display: none;
@@ -40,40 +55,40 @@
 }
 
 .anim-top-loading {
-  animation: topLevitate 2s ease-in-out infinite;
+  animation: topLevitate 4s ease-in-out infinite;
 }
 
 .anim-poly-1 {
   opacity: 0;
   transform-origin: center;
-  animation: slideUpFade 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.1s forwards;
+  animation: slideUpFade 1s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
 }
 
 .anim-poly-2 {
   opacity: 0;
   transform-origin: center;
-  animation: slideUpFade 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
+  animation: slideUpFade 1s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;
 }
 
 .anim-poly-3 {
   opacity: 0;
   transform-origin: center;
-  animation: slideUpFade 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;
+  animation: slideUpFade 1s cubic-bezier(0.16, 1, 0.3, 1) 0.8s forwards;
 }
 
 .anim-outline {
   stroke-dasharray: 40;
   stroke-dashoffset: 80;
-  animation: drawLoadingLine 1.5s linear infinite;
+  animation: drawLoadingLine 3s linear infinite;
 }
 
 .anim-line {
   opacity: 0;
-  animation: slideUpFade 0.4s ease-out 0.8s forwards;
+  animation: slideUpFade 0.8s ease-out 1.2s forwards;
 }
 
 .anim-text {
   opacity: 0;
   transform-origin: center;
-  animation: popIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 1.4s forwards;
+  animation: popIn 1.2s cubic-bezier(0.16, 1, 0.3, 1) 1.6s forwards;
 }
