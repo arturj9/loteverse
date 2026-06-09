@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nome": "Lote Padrão A1",
+    "dimensoes": "10m x 20m",
+    "area_total": "200m²",
+    "preco": "R$ 65.000,00",
+    "slug": "padrao"
+  },
+  {
+    "id": 2,
+    "nome": "Lote Esquina B4",
+    "dimensoes": "12m x 25m",
+    "area_total": "300m²",
+    "preco": "R$ 90.000,00",
+    "slug": "esquina"
+  },
+  {
+    "id": 3,
+    "nome": "Lote Premium P10",
+    "dimensoes": "15m x 30m",
+    "area_total": "450m²",
+    "preco": "R$ 145.000,00",
+    "slug": "premium"
+  }
+]
