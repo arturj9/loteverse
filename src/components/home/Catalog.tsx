@@ -17,13 +17,13 @@ export default function Catalog({ lotes, onOpenModal }: CatalogProps) {
 
   return (
     <section id="catalogo" className="py-24 md:py-32 bg-brand-light text-brand-dark overflow-hidden relative">
-      <div className="px-6 md:px-12 max-w-[1400px] mx-auto mb-16 flex flex-col md:flex-row md:items-end justify-between gap-8 border-t border-brand-light-alt pt-16">
+      <div className="px-8 sm:px-12 md:px-16 max-w-[1400px] mx-auto mb-12 flex flex-col md:flex-row md:items-end justify-between gap-8 border-t border-brand-light-alt pt-16">
         <div>
-          <h2 className="text-3xl md:text-5xl font-sans font-normal tracking-tight">Coleção curada.</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-sans font-normal tracking-tight">Coleção curada.</h2>
         </div>
       </div>
 
-      <div className="flex gap-6 px-6 md:px-12 pb-12 overflow-x-auto hide-scrollbar snap-x snap-mandatory max-w-[1400px] mx-auto">
+      <div className="flex gap-6 px-8 sm:px-12 md:px-16 pb-12 overflow-x-auto hide-scrollbar snap-x snap-mandatory max-w-[1400px] mx-auto">
         {lotes.map((lote) => (
           <div key={lote.id} className="min-w-[85vw] md:min-w-[400px] max-w-[400px] shrink-0 snap-center group">
             <div
@@ -46,7 +46,8 @@ export default function Catalog({ lotes, onOpenModal }: CatalogProps) {
               </div>
             </div>
 
-            <div className="flex justify-between items-start gap-4">
+            <div className="px-4 md:px-0">
+              <div className="flex justify-between items-start gap-4">
               <div>
                 <h4 className="text-lg font-medium mb-1 tracking-tight text-brand-dark">{lote.nome}</h4>
                 <p className="text-brand-dark-alt/80 text-sm font-light">LoteVerse</p>
