@@ -1,4 +1,4 @@
-# ExpoVerse Template
+# 🟩⬛⬜ LoteVerse | Desafio ExpoVerse
 
 ## Sobre o desafio
 Template oficial do desafio ExpoVerse do Hackathon Web3 RESTIC 29.
@@ -54,4 +54,4 @@ npm run dev
 - Vídeo-pitch
 
 ## Equipe
-Adicionar integrantes aqui.
+Artur Jardel Soares Gomes - Desenvolvedor e Idealizador do LoteVerse
