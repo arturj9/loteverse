@@ -24,8 +24,8 @@ function App() {
     <div className="min-h-screen bg-brand-light font-sans font-light text-brand-dark-alt selection:bg-brand-accent selection:text-brand-light relative overflow-x-hidden">
       <Navbar />
       <Hero />
-      <Catalog lotes={lotesData as Lote[]} onOpenModal={openUnityModal} />
       <Marquee />
+      <Catalog lotes={lotesData as Lote[]} onOpenModal={openUnityModal} />
       <Footer />
       {selectedLote && (
         <UnityModal lote={selectedLote} onClose={closeUnityModal} />
