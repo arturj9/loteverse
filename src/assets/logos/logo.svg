@@ -19,11 +19,10 @@
     <polygon points="40,55 70,40 70,75 40,90" fill="url(#gradRight)" stroke="#F4F1DE" stroke-width="1.5" stroke-linejoin="round"/>
     <polygon points="40,20 70,40 40,55 10,40" fill="url(#gradTop)" stroke="#10B981" stroke-width="2" stroke-linejoin="round"/>
     
-    <polygon points="40,0 55,7 40,15 25,7" fill="none" stroke="#10B981" stroke-width="2" stroke-linejoin="round"/>
-    <line x1="40" y1="15" x2="40" y2="20" stroke="#10B981" stroke-width="2" stroke-dasharray="2,2"/>
+
   </g>
 
-  <text x="105" y="80" font-family="'Inter', 'Roboto', sans-serif" font-size="42" font-weight="800" fill="#F4F1DE" letter-spacing="-1">
+  <text x="105" y="90" font-family="'Inter', 'Roboto', sans-serif" font-size="42" font-weight="800" fill="#F4F1DE" letter-spacing="-1">
     Lote<tspan fill="#10B981" font-weight="300">Verse</tspan>
   </text>
 </svg>
