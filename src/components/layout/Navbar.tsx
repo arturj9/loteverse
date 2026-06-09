@@ -44,7 +44,7 @@ export default function Navbar() {
             }}
           >
 
-            <AnimatedLogo className={`transition-all duration-500 w-auto ${scrolled ? 'h-10 md:h-14' : 'h-[120px]'}`} />
+            <AnimatedLogo className={`transition-all duration-500 w-auto ${scrolled ? 'h-16 md:h-20' : 'h-[120px]'}`} />
           </a>
         </div>
         
