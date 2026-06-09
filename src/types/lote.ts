@@ -5,4 +5,5 @@ export interface Lote {
   area_total: string;
   preco: string;
   slug: string;
+  mapa_url?: string;
 }

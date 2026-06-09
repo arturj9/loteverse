@@ -66,6 +66,30 @@ export default function Catalog({ lotes, onOpenModal }: CatalogProps) {
               </span>
             </div>
 
+            {lote.mapa_url && (
+              <div className="mt-6 border-t border-brand-dark/10 pt-5">
+                <h4 className="text-brand-dark font-medium text-sm mb-3 flex items-center gap-2">
+                  <svg className="w-4 h-4 text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.243-4.243a8 8 0 1111.314 0z"></path>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                  </svg>
+                  Localização do Terreno
+                </h4>
+                
+                <div className="w-full h-32 overflow-hidden border-2 border-brand-dark">
+                  <iframe 
+                    src={lote.mapa_url} 
+                    width="100%" 
+                    height="100%" 
+                    style={{ border: 0 }} 
+                    allowFullScreen={false} 
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+            )}
+
             <div className="mt-6">
               <button
                 onClick={() => onOpenModal(lote)}

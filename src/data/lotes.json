@@ -5,7 +5,8 @@
     "dimensoes": "10m x 20m",
     "area_total": "200m²",
     "preco": "R$ 65.000,00",
-    "slug": "padrao"
+    "slug": "padrao",
+    "mapa_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15925.358509849202!2d-38.5684!3d-3.7327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM8KwNDMnNTcuNyJTIDM4wrAzNCcwNi4yIlc!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "dimensoes": "12m x 25m",
     "area_total": "300m²",
     "preco": "R$ 90.000,00",
-    "slug": "esquina"
+    "slug": "esquina",
+    "mapa_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15925.358509849202!2d-38.5684!3d-3.7327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM8KwNDMnNTcuNyJTIDM4wrAzNCcwNi4yIlc!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr"
   },
   {
     "id": 3,
@@ -21,6 +23,7 @@
     "dimensoes": "15m x 30m",
     "area_total": "450m²",
     "preco": "R$ 145.000,00",
-    "slug": "premium"
+    "slug": "premium",
+    "mapa_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15925.358509849202!2d-38.5684!3d-3.7327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM8KwNDMnNTcuNyJTIDM4wrAzNCcwNi4yIlc!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr"
   }
 ]
