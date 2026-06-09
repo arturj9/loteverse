@@ -25,7 +25,7 @@ export default function Catalog({ lotes, onOpenModal }: CatalogProps) {
 
       <div className="flex gap-6 px-8 sm:px-12 md:px-16 pb-12 overflow-x-auto hide-scrollbar snap-x snap-mandatory max-w-[1400px] mx-auto">
         {lotes.map((lote) => (
-          <div key={lote.id} className="min-w-[85vw] md:min-w-[400px] max-w-[400px] shrink-0 snap-center group">
+          <div key={lote.id} className="w-[75vw] min-w-[75vw] md:min-w-[400px] max-w-[400px] shrink-0 snap-center group">
             <div
               className="aspect-[4/5] overflow-hidden relative mb-6 bg-brand-light-alt flex items-center justify-center border border-brand-light-alt cursor-pointer"
               onClick={() => onOpenModal(lote)}
@@ -75,6 +75,7 @@ export default function Catalog({ lotes, onOpenModal }: CatalogProps) {
               </button>
             </div>
           </div>
+        </div>
         ))}
         <div className="min-w-[20px] md:min-w-[48px] shrink-0"></div>
       </div>
